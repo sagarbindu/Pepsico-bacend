@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: Ubuntu Office
+pool:
+ vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
