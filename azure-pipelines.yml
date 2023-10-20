@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  name: Default
+pool: Ubuntu Office
 
 steps:
 - task: Maven@3
